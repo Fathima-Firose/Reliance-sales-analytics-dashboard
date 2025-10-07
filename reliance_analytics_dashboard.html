@@ -40,7 +40,7 @@
             overflow-x: hidden;
         }
 
-        /* --- HEADER (Fixed & Enhanced) --- */
+          /* --- HEADER --- */
         header {
             background-color: var(--primary-color);
             color: var(--white-color);
@@ -62,16 +62,12 @@
         }
 
         header .trends-logo-img {
-            /* Placeholder for the image. In a real scenario, this path would be relative. */
-            height: 40px; 
-            width: 40px;
-            border-radius: 50%; /* Optional: for a round logo */
-            background-color: var(--white-color); /* For visual placeholder */
+            height: 40px; /* Standardize image height */
             margin-right: 15px;
             object-fit: contain;
-            /* Added a subtle border for visual separation */
-            border: 2px solid rgba(255, 255, 255, 0.5);
-            padding: 5px;
+            /* Added border for visual pop, consistent with theme */
+            border-right: 2px solid rgba(255, 255, 255, 0.5);
+            padding-right: 15px;
         }
 
         header .logo {
@@ -82,8 +78,8 @@
 
         header .location {
             font-size: 16px;
-            opacity: 0.9;
-            font-weight: 400;
+            opacity: 0.8;
+            font-weight: 300;
         }
         
         /* --- SIDE NAVIGATION (SIDEBAR) --- */
@@ -347,7 +343,8 @@
 
     <header>
         <div class="logo-container">
-            <img src="https://drive.google.com/file/d/1tG0puIlkzSPQylLFT9-Dv_ZU4xutsQX-/view?usp=sharing" alt="TRENDS Logo" class="trends-logo-img">
+            <img src="trends.png" alt="TRENDS Logo" class="trends-logo-img">
+
             <div class="logo">Reliance Trends Madurai Sales Analytics Dashboard</div>
         </div>
         <div>
